@@ -1,0 +1,30 @@
+{
+  "name": "places",
+  "version": "1.0.0",
+  "description": "Estudo node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esveraldo/places.git"
+  },
+  "author": "Esveraldo Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esveraldo/places/issues"
+  },
+  "homepage": "https://github.com/esveraldo/places#readme",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0",
+    "restify": "^8.2.0",
+    "restify-errors": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
